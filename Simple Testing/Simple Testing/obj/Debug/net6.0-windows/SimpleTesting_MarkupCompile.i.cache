@@ -1,0 +1,20 @@
+﻿SimpleTesting
+1.0.0.0
+
+winexe
+C#
+.cs
+D:\Storage\study\DB\Crs\Testing-Repo\Simple Testing\Simple Testing\obj\Debug\net6.0-windows\
+SimpleTesting
+none
+false
+TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+D:\Storage\study\DB\Crs\Testing-Repo\Simple Testing\Simple Testing\App.xaml
+18-1350613891
+
+331548747576
+2211364907394
+Control\AnswerControl.xaml;Control\ChooseTest.xaml;Control\CreateTestContent.xaml;Control\CreateTestGeneral.xaml;Control\CustomPasswordBox.xaml;Control\EditDisciplines.xaml;Control\ExecuteTest.xaml;Control\ExecutionResult.xaml;Control\LogInStudents.xaml;Control\NumericTextBox.xaml;Control\ViewResult.xaml;Control\ViewTestResults.xaml;MainWindow.xaml;Window\AuthorMenuWindow.xaml;Window\CreateTestWindow.xaml;Window\EditAuthorWindow.xaml;Window\RegisterAuthorWindow.xaml;Window\TestsListWindow.xaml;
+
+True
+

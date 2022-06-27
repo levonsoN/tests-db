@@ -1,0 +1,54 @@
+﻿<local:EscEnterWindow x:Class="SimpleTesting.Windows.AuthorMenuWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SimpleTesting.Windows"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        WindowStyle="ToolWindow"
+        SizeToContent="WidthAndHeight"
+        Title="Simple Testing Program" Height="255" Width="355" IsVisibleChanged="WindowIsVisibleChanged" >
+    <Grid Height="240" VerticalAlignment="Top" HorizontalAlignment="Center" Width="355">
+        <Label Content="Author's Menu" Margin="10,10,0,0" FontSize="24" FontWeight="Bold" Height="42" VerticalAlignment="Top" HorizontalAlignment="Left" Width="180"/>
+
+        <GroupBox Header="Profile" Margin="0,52,0,0" Height="107" VerticalAlignment="Top" HorizontalAlignment="Center" Width="335" FontSize="14" FontWeight="Bold" BorderBrush="#FF707070">
+            <Grid Height="81" Margin="0,0,-2,0">
+                <Label x:Name="authorSurnameLabel" Content="Surname:"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="317" Height="27" FontSize="12" FontWeight="Normal"/>
+                <Label x:Name="authorNameLabel" Content="Name:"  HorizontalAlignment="Left" VerticalAlignment="Center" Width="319" Height="27" FontWeight="Normal" FontSize="12"/>
+                <Label x:Name="authorPatronimycLabel" Content="Patronimyc:"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="317" Height="27" Margin="0,54,0,0" FontSize="12" FontWeight="Normal"/>
+            </Grid>
+        </GroupBox>
+        <Button TabIndex="0" x:Name="openTestsListButton" Content="Open Tests List" HorizontalAlignment="Center" Margin="0,164,0,0" VerticalAlignment="Top" Width="335" Height="39" Click="OpenTestsListButtonClick">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0,1">
+                    <GradientStop Color="#FFF3F3F3"/>
+                    <GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+                    <GradientStop Color="#FFDDDDDD" Offset="0.9"/>
+                    <GradientStop Color="#FFCDCDCD" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button TabIndex="1" x:Name="editProfileButton"  Content="Edit Profile" Margin="10,208,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="225" Click="EditProfileButtonClick">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0,1">
+                    <GradientStop Color="#FFF3F3F3"/>
+                    <GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+                    <GradientStop Color="#FFDDDDDD" Offset="0.9"/>
+                    <GradientStop Color="#FFCDCDCD" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button TabIndex="2" x:Name="logOutButton"  Content="Log Out" Margin="240,208,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="105" Click="LogOutButtonClick">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0,1">
+                    <GradientStop Color="#FFF3F3F3"/>
+                    <GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+                    <GradientStop Color="#FFDDDDDD" Offset="0.9"/>
+                    <GradientStop Color="#FFCDCDCD" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+    </Grid>
+</local:EscEnterWindow>

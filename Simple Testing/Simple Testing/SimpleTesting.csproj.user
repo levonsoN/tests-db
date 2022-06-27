@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Control\AnswerControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Control\ChooseTest.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Control\CreateTestContent.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Control\EditDisciplines.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Control\ExecuteTest.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Control\ExecutionResult.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Control\LogInStudents.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Control\ViewResult.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Control\ViewTestResults.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Window\AuthorMenuWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Window\CreateTestWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Window\EditAuthorWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Window\RegisterAuthorWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Window\TestsListWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Control\AnswerControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Control\ChooseTest.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Control\CreateTestContent.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Control\EditDisciplines.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Control\ExecuteTest.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Control\ExecutionResult.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Control\LogInStudents.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Control\ViewResult.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Control\ViewTestResults.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Window\AuthorMenuWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Window\CreateTestWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Window\EditAuthorWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Window\RegisterAuthorWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Window\TestsListWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
